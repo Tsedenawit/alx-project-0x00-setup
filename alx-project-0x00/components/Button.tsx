@@ -1,9 +1,9 @@
 import React from "react"
 import { butprops } from "@/interfaces";
-const Button: React.FC<butprops>= ({title})=>{
+const Button: React.FC<butprops>= ({styles})=>{
     return(
         <div>
-            <button className="rounded-sm, rounded-md, rounded-full">{title}</button>
+            <button className="rounded-sm, rounded-md, rounded-full">{styles}</button>
         </div>
     )
 }
